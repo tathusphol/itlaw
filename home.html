@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="flex justify-center items-center min-h-screen">
+        <div class="max-w-7xl w-full">
+            <div class="w-full">
+                <form action="/alluser" class="flex justify-center mb-10" method="post">
+                    <Button name="alluser" class="bg-green-500 rounded-md px-4 py-2 w-1/2">All User Page</Button>
+                </form>
+                <form action="/allstudent" class="flex justify-center mb-10" method="post">
+                    <Button name="allstudent" class="bg-green-500 rounded-md px-4 py-2 w-1/2">All Student Page</Button>
+                </form>
+                <form action="/MyInformation" class="flex justify-center mb-10" method="post">
+                    <Button name="MyInformation" class="bg-green-500 rounded-md px-4 py-2 w-1/2">My Information Page</Button>
+                </form>
+                <form action="/logout" class="flex justify-center mb-10" method="get">
+                    <Button name="logout" class="bg-red-500 rounded-md px-4 py-2 w-1/2">Logout</Button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
